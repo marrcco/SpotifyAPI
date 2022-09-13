@@ -58,5 +58,5 @@ class SpotifyAPI:
         return r
 
 
-api = SpotifyAPI(client_id="95f368d4307141009e9cb23bedacb8a9",client_secret="0d2dfa1fb06445a9a05359335286d5db")
+api = SpotifyAPI(client_id="YOUR_ID",client_secret="YOUR_CLIENT_SECRET")
 drake = api.get_artist_albums(artist_id="3TVXtAsR1Inumwj472S9r4")
